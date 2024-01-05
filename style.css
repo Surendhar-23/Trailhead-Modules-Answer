@@ -15,9 +15,15 @@ body {
 }
 
 .container {
-  background-color: yellow;
+  background-color: #a5d8ff;
   width: 100%;
   margin: 0 auto;
+}
+
+.each:not(.each:last-child) {
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #999;
+  padding: 2rem;
 }
 
 .Module__heading {
@@ -44,8 +50,9 @@ body {
 .content {
   width: 95%;
   margin: 0 auto;
+  text-align: center;
 }
 
 iframe {
-  width: 100%;
+  width: 50%;
 }
