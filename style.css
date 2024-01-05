@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: yellow;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Module__heading {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.Module__no {
+  font-size: 2rem;
+  color: rgb(176, 11, 176);
+}
+
+.Module__Name {
+  font-size: 2rem;
+  color: red;
+}
+
+.sub__heading {
+  color: blue;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 100%;
+}
